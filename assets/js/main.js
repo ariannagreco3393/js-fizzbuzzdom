@@ -6,7 +6,7 @@ Per i multipli di 5 stampi Buzz.
 Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 */
 
-const numberElement = document.querySelector(".numbers");
+const numbersElement = document.querySelector(".numbers");
 
 for (let i=1; i<=100; i++){
     let number;
@@ -24,5 +24,7 @@ for (let i=1; i<=100; i++){
        number = `<div>${i}</div>`
        console.log(number);
     }
-}
 
+    numbersElement.insertAdjacentHTML("beforeend", number)
+
+}
