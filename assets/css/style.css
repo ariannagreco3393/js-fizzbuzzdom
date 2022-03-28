@@ -1,0 +1,14 @@
+.container {
+    background-color: #193A49;
+}
+
+.numbers {
+    gap: 1rem;
+}
+
+.number {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 18px;
+}
