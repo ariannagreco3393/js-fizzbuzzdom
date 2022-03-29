@@ -13,15 +13,15 @@ for (let i=1; i<=100; i++){
     //console.log(i);
 
     if (i % 3 == 0 && i % 5 == 0) {
-       number = `<div class="number fizzbuzz bg-danger">fizzbuzz</div>`
+       number = `<div class="number fizzbuzz bg-danger d-flex flex-wrap justify-content-center align-items-center">fizzbuzz</div>`
     } else if (i % 3 == 0) {
-       number = `<div class="number fizz bg-light">fizz </div>`
+       number = `<div class="number fizz bg-light d-flex flex-wrap justify-content-center align-items-center">fizz </div>`
 
     } else if (i % 5 == 0) {
-       number = `<div class="number buzz bg-warning">buzz</div>`
+       number = `<div class="number buzz bg-warning d-flex flex-wrap justify-content-center align-items-center">buzz</div>`
 
     } else {
-       number = `<div class="number bg-success">${i}</div>`
+       number = `<div class="number bg-success d-flex flex-wrap justify-content-center align-items-center">${i}</div>`
        //console.log(number);
     }
 
